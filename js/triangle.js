@@ -1,7 +1,7 @@
 function denilson(){
-  var adjacent= prompt("enter length1")
-  var hypotenuse= prompt ("enter length2")
-  var opposite =prompt ("enter length3")
+  var adjacent= parseInt(document.getElementById('First Number').value);
+  var hypotenuse= parseInt(document.getElementById('Second Number').value);
+  var opposite =parseInt(document.getElementById('Second Number').value);
   if (adjacent===hypotenuse&&hypotenuse===opposite){
     alert("EQUILATERAL TRIANGLE")
   }
