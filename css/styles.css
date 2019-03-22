@@ -1,0 +1,27 @@
+#hey {
+  background-color: lightblue;
+   color: black;
+   padding: 40px;
+   text-align: center;
+}
+body{
+  margin: 0;
+  background-image: url("images/one.jpg");
+
+}
+.head{
+font-style: italic;
+text-align: center;
+font-size: 25px;
+
+}
+.leg{
+text-align: center;
+font-size: 20px;
+display: block;
+border: 12px solid #333;
+padding: 25px
+}
+.hand{
+  text-align: center;
+}
