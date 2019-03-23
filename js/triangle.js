@@ -6,7 +6,7 @@ function denilson(){
     alert("EQUILATERAL TRIANGLE");
   }
   else if(adjacent===opposite||opposite===hypotenuse||hypotenuse===adjacent){
-    alert("ISOSCLES TRIANGLE");
+    alert("ISOSCELES TRIANGLE");
   }
   else if (adjacent!==opposite&& adjacent+opposite<hypotenuse||hypotenuse+opposite<adjacentt){
     alert("SCALENE TRIANGLE")
