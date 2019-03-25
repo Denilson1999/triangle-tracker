@@ -12,7 +12,7 @@
 * click ok to enter other vaues
 * now you can know which measurements make a certain triangle
 
-##Behaviour Driven Development
+## Behaviour Driven Development
 |behaviour             |input                          |output
 |---------:            |-------:                       |------:
 |all sides are equal   | hypotenuse=isoscles=adjacent  | Equilateral triangle
