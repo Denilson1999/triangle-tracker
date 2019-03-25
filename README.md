@@ -1,5 +1,5 @@
 # TRIANGLE TRACKER
-##AUTHOR
+## AUTHOR
 - [Denilson Makotsi](https://github.com/Denilson1999/triangle-tracker)
 [moringa school student]
 [learning javascript HTML and css]
@@ -11,6 +11,11 @@
 * then to know which triangle has been formed click the button and a pop will scren to tell you which type of s triangle has been formed
 * click ok to enter other vaues
 * now you can know which measurements make a certain triangle
+|behaviour             |input                          |output
+|---------:            |-------:                       |------:
+|all sides are equal   | hypotenuse=isoscles=adjacent  | Equilateral triangle
+|two sides are equal   | adjacent=hypotenuse           | Isoscles triangle
+|none sides are equal  |adjacent!=hypotenuse!=isoscles | scalene triangle
 ## Known Bugs
 [not all mesurements will give you a triangle.]
 ## Technologies Used
