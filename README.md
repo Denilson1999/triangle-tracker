@@ -13,7 +13,7 @@
 * now you can know which measurements make a certain triangle
 
 ## Behaviour Driven Development
-|behaviour             |input                          |output
+|Behaviour             |Input                          |Output
 |---------:            |:-------:                      |------:
 |all sides are equal   |hypotenuse=opposite=adjacent  | Equilateral triangle
 |two sides are equal   |adjacent=hypotenuse           | Isoscles triangle
