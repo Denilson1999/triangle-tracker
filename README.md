@@ -11,6 +11,7 @@
 * then to know which triangle has been formed click the button and a pop will scren to tell you which type of s triangle has been formed
 * click ok to enter other vaues
 * now you can know which measurements make a certain triangle
+##Behaviour Driven Development
 |behaviour             |input                          |output
 |---------:            |-------:                       |------:
 |all sides are equal   | hypotenuse=isoscles=adjacent  | Equilateral triangle
