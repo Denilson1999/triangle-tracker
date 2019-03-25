@@ -14,7 +14,7 @@
 
 ## Behaviour Driven Development
 |behaviour             |input                          |output
-|---------:            |-------:                       |------:
+|---------:            |:-------:                       |------:
 |all sides are equal   | hypotenuse=isoscles=adjacent  | Equilateral triangle
 |two sides are equal   | adjacent=hypotenuse           | Isoscles triangle
 |none sides are equal  |adjacent!=hypotenuse!=isoscles | scalene triangle
