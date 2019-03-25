@@ -1,20 +1,22 @@
 function denilson(){
-  var adjacent= parseInt(document.getElementById('First Number').value);
-  var hypotenuse= parseInt(document.getElementById('Second Number').value);
-  var opposite =parseInt(document.getElementById('Third Number').value);
-  if (adjacent===hypotenuse&&hypotenuse===opposite){
-    alert("EQUILATERAL TRIANGLE");
+  var side1= parseInt(document.getElementById('First Number').value);
+  var side2= parseInt(document.getElementById('Second Number').value);
+  var side3 =parseInt(document.getElementById('Third Number').value);
+  var triangle = function(a, b, c,){
+    return a+b>c && b+c>a && c+a>b
   }
-  else if(adjacent===opposite||opposite===hypotenuse||hypotenuse===adjacent){
-    alert("ISOSCELES TRIANGLE");
-  }
-  else if (adjacent!==opposite&& adjacent+opposite<hypotenuse||hypotenuse+opposite<adjacentt){
-    alert("SCALENE TRIANGLE")
-  }
-  else if (adjacent+hypotenuse<=opposite||hpotenuse +opposite<=adjacent||adjacent+opposite<=hypotenuse){
-    alert('NOT A TRIANGLE');
-  }
-  else{}
+if (triangle(side1,side2,side3,) && side1===side2 &&side2===side3) {
+  alert("equilateral triangle")
+}
+else if (triangle(side1,side2,side3,) && side1!=side2 &&side2!=side3 && side3!=side1){
+  alert("scalene triangle")
+}
+else if (triangle(side1,side2,side3,) && side1===side2||side3===side1||side2===side3){
+  alert("isoscles triangle")
+}
+else{
+  alert ("not a triangle")
+}
 
 
 
