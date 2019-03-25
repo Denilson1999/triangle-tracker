@@ -14,10 +14,10 @@
 
 ## Behaviour Driven Development
 |behaviour             |input                          |output
-|---------:            |:-------:                       |------:
-|all sides are equal   | hypotenuse=isoscles=adjacent  | Equilateral triangle
-|two sides are equal   | adjacent=hypotenuse           | Isoscles triangle
-|none sides are equal  |adjacent!=hypotenuse!=isoscles | scalene triangle
+|---------:            |:-------:                      |------:
+|all sides are equal   |hypotenuse=opposite=adjacent  | Equilateral triangle
+|two sides are equal   |adjacent=hypotenuse           | Isoscles triangle
+|none sides are equal  |adjacent!=hypotenuse!=opposite | scalene triangle
 ## Known Bugs
 [not all mesurements will give you a triangle.]
 ## Technologies Used
